@@ -13,16 +13,25 @@ body {
     font-style: normal;
   }
 
+  #title {
+    font-size: 100pt;
+    color: Red;
+    font-style: bold; 
+    font-weight: 500;
+    border-start-end-radius: 25pt;
+  }
+
   .header-text {
     font-size: 50pt;
-    font-style: oblique;
+    color: rgb(13, 235, 13);
+    font-style: italic;
     font-weight: 200;
     border-start-end-radius: 25pt;
   }
   
   .smaller-image {
       width: 500px;
-      image
+      
   }
 
   .thin-black-border {
