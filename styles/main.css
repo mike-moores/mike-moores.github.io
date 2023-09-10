@@ -1,48 +1,69 @@
 body {
     background-color: white;
-    background-image: url('https://raw.githubusercontent.com/mike-moores/mike-moores.github.io/main/images/Mike.jpg');
+    background-image: url('https://github.com/mike-moores/mike-moores.github.io/blob/main/images/background.png?raw=true');
     background-repeat: no-repeat;
-    border-color: black;
-        border-width: 5px;
-    border-style: solid;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     font-family: 'Acme', sans-serif;
   }
 
   
   p {
-    font-size: 35pt;
+    font-size: 25pt;
     font-style: normal;
+    margin: 45px 120px 45px 120px
+  
   }
 
-  #title {
-    font-size: 100pt;
-    color: black;
-    font-style: bold; 
-    font-weight: 500;
-    border-start-end-radius: 25pt;
-  }
-
-  .header-text {
+  .title {
     font-size: 50pt;
     color: black;
-    font-style: italic;
     font-weight: 200;
     text-align: center;
     border-start-end-radius: 25pt;
-  }
+    margin: 0px 0px 0px 0px
   
-  .smaller-image {
-      width: 500px;
-      text-align: center;
-          
-      
   }
 
+  .header-text {
+    font-size: 35pt;
+    color: black;
+    font-weight: 200;
+    font-style: italic;
+    text-align: center;
+    border-start-end-radius: 25pt;
+    margin: 10px 0px 0px 0px
+  }
+
+  .sub-title {
+    font-size: 25pt;
+    font-style: normal;
+    margin: 45px 100px 45px 100px   
+  }
+  
   .thin-black-border {
       border-color: black
       border-width: 5px;
       border-style; solid;
 
+  }
+
+  .centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .example-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+          }
   }
 
   #link {
@@ -53,6 +74,7 @@ body {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  margin-bottom: 95px;
 }
 
 .topnav a {
@@ -62,6 +84,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
 }
 
 .topnav a:hover {
@@ -74,3 +97,28 @@ body {
   color: white;
 }
 
+#quote {
+  font-family:'Courier New', Courier, monospace
+  font-size: 25pt;
+  color: black;
+  font-weight: 200;
+  font-style: italic;
+  text-align: center;
+  border-start-end-radius: 25pt;
+  }
+
+.first-sub-title {
+  font-size: 25pt;
+  font-style: normal;
+  margin: 150px 120px 45px 120px
+}
+
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: inline-flex;
+  
+
+}
