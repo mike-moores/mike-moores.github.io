@@ -25,6 +25,16 @@ body {
   
   }
 
+  .second-title {
+    font-size: 50pt;
+    color: black;
+    font-weight: 200;
+    text-align: center;
+    border-start-end-radius: 25pt;
+    margin: 100px 0px 100px 0px
+  
+  }
+
   .header-text {
     font-size: 35pt;
     color: black;
